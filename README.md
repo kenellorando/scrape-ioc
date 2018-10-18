@@ -4,6 +4,7 @@ Scraper script for doc and docx files, pulls probable indicators of compromise i
 - Email address
 - MD5 hashes
 - SHA256 hashes
+- Potentially malicious filenames (by extension)
 
 ## Usage
 ```
