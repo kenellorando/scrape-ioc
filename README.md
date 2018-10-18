@@ -1,2 +1,12 @@
 # scrape-ioc
-Indicators of compromise scraper script for docx files.
+Scraper script for doc and docx files, pulls probable indicators of compromise including:
+- IP address
+- Email address
+- MD5 hashes
+- SHA256 hashes
+
+## Usage
+```
+./scrape.sh DOC
+# Where DOC is a doc/docx file or a directory containing doc/docx files.
+```
